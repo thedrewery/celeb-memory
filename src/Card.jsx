@@ -1,4 +1,7 @@
 const Card = ({ celebrity, isFlipped, isMatched, onClick }) => {
+
+
+    
   return (
     <div className={`card ${isFlipped ? 'flipped' : ''}`}>
       <div className="card-front">

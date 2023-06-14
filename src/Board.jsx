@@ -1,6 +1,9 @@
 import Card from "./Card"
 
 const Board = ({ cards, handleCardClick }) => {
+
+
+    
   return (
     <div className="board">
       {cards.map((card) => (
