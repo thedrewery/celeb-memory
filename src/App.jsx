@@ -1,15 +1,11 @@
-import { createRoot } from "react-dom/client";
-import SearchParams from "./SearchParams";
+import Game from "./Game";
 
 const App = () => {
   return (
-    <div>
-      <h1>Adopt Me!</h1>
-      <SearchParams />
+    <div className="app">
+      <Game />
     </div>
   );
-};
+}
 
-const container = document.getElementById("root");
-const root = createRoot(container);
-root.render(<App />);
+export default App;
